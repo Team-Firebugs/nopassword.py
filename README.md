@@ -14,19 +14,17 @@ nopass.py seed
 ```
 
 ## Example
->>nopass.py facebook
-6n1eby^@]{dm6T-{]r{5NC^Z^`%vZ9w4.nemgcrN-v&,|,gS3fn]KzXRH,br"$=zf*"v_q@j@
+>nopass.py facebook
+>6n1eby^@]{dm6T-{]r{5NC^Z^`%vZ9w4.nemgcrN-v&,|,gS3fn]KzXRH,br"$=zf*"v_q@j@
 
->>nopass.py github
-k/Mzz-$6AQ\K`1n/mD7]1o0|E'b};RO*ZLzCC]Iuo!oJ#}oB2+a~rx{:o;}&R|O*5k*+u~,%@
+>nopass.py github
+>k/Mzz-$6AQ\K`1n/mD7]1o0|E'b};RO*ZLzCC]Iuo!oJ#}oB2+a~rx{:o;}&R|O*5k*+u~,%@
 
->>nopass.py github
-k/Mzz-$6AQ\K`1n/mD7]1o0|E'b};RO*ZLzCC]Iuo!oJ#}oB2+a~rx{:o;}&R|O*5k*+u~,%@
-
-
->>nopass.py --help
+>nopass.py github
+>k/Mzz-$6AQ\K`1n/mD7]1o0|E'b};RO*ZLzCC]Iuo!oJ#}oB2+a~rx{:o;}&R|O*5k*+u~,%@
 
 ```bash
+nopass.py --help
 Usage: /usr/local/bin/nopass.py [OPTIONS] SEED
 
 Required arguments:
