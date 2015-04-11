@@ -13,6 +13,9 @@ except ImportError:
 with open('LICENSE') as f:
     license = f.read()
 
+requirements = []
+with open("requirements.txt") as f:
+    requirements = [x.split("=")[0].strip() for x in f.readlines()]
 
 setup(
     name='nopassword',
@@ -25,4 +28,5 @@ setup(
     url='https://github.com/nopassword/nopassword-python',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
-)
+    install_requires= requirements,
+    )
