@@ -19,14 +19,15 @@ with open("requirements.txt") as f:
 
 setup(
     name='nopassword',
-    version='0.0.1',
+    version='0.0.4',
     description='Determenistic password generator',
     long_description=read_md('README.md'),
     #long_description=readme,
     author='oskarnyqvist',
     author_email='oskarnyqvist@gmail.com',
-    url='https://github.com/nopassword/nopassword-python',
+    url='https://github.com/nopassword/nopass.py',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires= requirements,
+    scripts=['bin/nopassword'],
     )
