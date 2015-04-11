@@ -71,7 +71,7 @@ nopass.py github -l=10 -a=alphanumeric -i=10
 MgHDdXCuUP
 ```
 
-Set itterations 11, result completly differnt
+Set itterations 11, result different
 ```
 nopass.py github -l=10 -a=alphanumeric -i=11
 BBU9FgEamB
