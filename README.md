@@ -77,3 +77,26 @@ nopassword github -l=10 -a=alphanumeric -i=11
 BBU9FgEamB
 ```
 
+Generate new keyfile
+```
+nopassword -k=my_organisation -g
+Keyfile my_organisation created
+```
+
+Use keyfile
+```
+nopassword github -l=10 -a=alphanumeric -i=11 -k=my_organisation
+pZv645w04Z
+```
+
+
+## Keyfiles
+Keyfiles are stored in json format in the ~/.nopassword/ directory.
+Keyfiles kan be shared between devices and individuals, copy the .json file.
+
+```
+ls -lh ~/.nopassword/
+total 216K
+-r-------- 1 oskar oskar 99K apr 11 12:31 default.json
+-r-------- 1 oskar oskar 99K apr 11 19:21 my_organisation.json
+```
