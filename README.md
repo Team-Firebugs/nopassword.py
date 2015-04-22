@@ -1,5 +1,5 @@
 # Don't store password - generate them on the fly
-nopassword is a determenistic password generator for the command line
+nopassword is a determenistic two factor password generator for the command line
 
 ## Installation
 ```bash
@@ -100,3 +100,10 @@ total 216K
 -r-------- 1 oskar oskar 99K apr 11 12:31 default.json
 -r-------- 1 oskar oskar 99K apr 11 19:21 my_organisation.json
 ```
+
+## Two factor password generator?
+I'd like to think so.
+Something you got: **key file** and something you know: **seed**, **iterations** and **alphabet**.
+
+So for a attacker to be able to generate your password they need the keyfile and the parameters.
+
