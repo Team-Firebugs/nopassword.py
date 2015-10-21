@@ -39,7 +39,7 @@ def get_runes():
         return "".join([chr(x) for x in range(ord(c1), ord(c2) + 1)])
 
     r = {
-        "alphanumeric": string.letters + string.digits,
+        "alphanumeric": string.ascii_letters + string.digits,
         "ascii": crange("!", "~"),
         "digits": string.digits,
     }
@@ -58,5 +58,5 @@ def generate_alphabet(runes, length):
 def load_keyfile(name):
    keyfile = json.loads(fs_load_keyfile(name))
    return keyfile
-   
-    
+
+
