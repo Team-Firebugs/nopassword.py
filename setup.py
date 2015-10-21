@@ -19,7 +19,7 @@ with open("requirements.txt") as f:
 
 setup(
     name='nopassword',
-    version='0.1.0',
+    version='0.1.1',
     description='Determenistic password generator',
     long_description=read_md('README.md'),
     #long_description=readme,
